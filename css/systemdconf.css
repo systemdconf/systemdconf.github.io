@@ -5172,7 +5172,8 @@ a, a:hover, a:focus {
   #sponsors h1 {
     color: #515151; }
   #sponsors ul {
-    text-align: center; }
+    text-align: center;
+    padding: 0; }
     #sponsors ul li {
       display: inline-block;
       margin: 2rem; }
@@ -5194,7 +5195,7 @@ a, a:hover, a:focus {
     font-size: 2rem;
     color: #999;
     display: block; }
-  #sponsors .silver > li > a > img {
+  #sponsors .sponsor > li > a > img {
     max-height: 180px;
     max-width: 180px;
     transition-property: all;
@@ -5202,11 +5203,29 @@ a, a:hover, a:focus {
     transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
     transition-delay: 0s;
     filter: grayscale(1); }
-  #sponsors .silver > li > a > img:hover {
+  #sponsors .sponsor > li > a > img:hover {
     transform: scale(1.15);
     filter: grayscale(0); }
-  #sponsors .silver:before {
-    content: "silver";
+  #sponsors .sponsor:before {
+    content: "sponsor";
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #999;
+    display: block; }
+  #sponsors .supporters > li > a > img {
+    max-height: 200px;
+    max-width: 200px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
+    transition-delay: 0s;
+    filter: grayscale(1); }
+  #sponsors .supporters > li > a > img:hover {
+    transform: scale(1.15);
+    filter: grayscale(0); }
+  #sponsors .supporters:before {
+    content: "supporters";
     text-transform: capitalize;
     font-weight: 300;
     font-size: 2rem;
@@ -5266,6 +5285,11 @@ a, a:hover, a:focus {
     font-size: 2rem;
     color: #999;
     display: block; }
+
+.become-sponsor {
+  background-image: repeating-radial-gradient(ellipse farthest-corner, #4a4a4a, #4a4a4a 25px, transparent 25px, transparent 50px);
+  background-color: #3e3e3e;
+  padding: 3rem; }
 
 #footer {
   padding: 2rem;
