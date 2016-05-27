@@ -5157,6 +5157,34 @@ a, a:hover, a:focus {
     line-height: 2.4rem;
     text-align: justify; }
 
+#schedule {
+  color: #eee;
+  padding-top: 1.6rem;
+  padding-bottom: 2rem;
+  background-color: #777; }
+  #schedule h2 {
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.2rem; }
+    #schedule h2 .day-type {
+      font-weight: 400; }
+  #schedule h3 {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.3rem; }
+  #schedule p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    text-align: justify; }
+  #schedule .tix-link {
+    font-size: 1.7rem;
+    font-weight: 500; }
+
 #memories {
   padding: 2rem;
   background-color: #333; }
