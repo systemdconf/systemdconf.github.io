@@ -5205,7 +5205,7 @@ a, a:hover, a:focus {
     #sponsors ul li {
       display: inline-block;
       margin: 2rem; }
-  #sponsors .gold > li > a > img {
+  #sponsors #gold > li > a > img {
     max-height: 220px;
     max-width: 220px;
     transition-property: all;
@@ -5213,17 +5213,17 @@ a, a:hover, a:focus {
     transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
     transition-delay: 0s;
     filter: grayscale(1); }
-  #sponsors .gold > li > a > img:hover {
+  #sponsors #gold > li > a > img:hover {
     transform: scale(1.15);
     filter: grayscale(0); }
-  #sponsors .gold:before {
+  #sponsors #gold:before {
     content: "gold";
     text-transform: capitalize;
     font-weight: 300;
     font-size: 2rem;
     color: #999;
     display: block; }
-  #sponsors .sponsor > li > a > img {
+  #sponsors #sponsor > li > a > img {
     max-height: 180px;
     max-width: 180px;
     transition-property: all;
@@ -5231,17 +5231,17 @@ a, a:hover, a:focus {
     transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
     transition-delay: 0s;
     filter: grayscale(1); }
-  #sponsors .sponsor > li > a > img:hover {
+  #sponsors #sponsor > li > a > img:hover {
     transform: scale(1.15);
     filter: grayscale(0); }
-  #sponsors .sponsor:before {
+  #sponsors #sponsor:before {
     content: "sponsor";
     text-transform: capitalize;
     font-weight: 300;
     font-size: 2rem;
     color: #999;
     display: block; }
-  #sponsors .supporters > li > a > img {
+  #sponsors #supporters > li > a > img {
     max-height: 200px;
     max-width: 200px;
     transition-property: all;
@@ -5249,17 +5249,17 @@ a, a:hover, a:focus {
     transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
     transition-delay: 0s;
     filter: grayscale(1); }
-  #sponsors .supporters > li > a > img:hover {
+  #sponsors #supporters > li > a > img:hover {
     transform: scale(1.15);
     filter: grayscale(0); }
-  #sponsors .supporters:before {
+  #sponsors #supporters:before {
     content: "supporters";
     text-transform: capitalize;
     font-weight: 300;
     font-size: 2rem;
     color: #999;
     display: block; }
-  #sponsors .bronze > li > a > img {
+  #sponsors #bronze > li > a > img {
     max-height: 140px;
     max-width: 140px;
     transition-property: all;
@@ -5267,17 +5267,17 @@ a, a:hover, a:focus {
     transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
     transition-delay: 0s;
     filter: grayscale(1); }
-  #sponsors .bronze > li > a > img:hover {
+  #sponsors #bronze > li > a > img:hover {
     transform: scale(1.15);
     filter: grayscale(0); }
-  #sponsors .bronze:before {
+  #sponsors #bronze:before {
     content: "bronze";
     text-transform: capitalize;
     font-weight: 300;
     font-size: 2rem;
     color: #999;
     display: block; }
-  #sponsors .organizer > li > a > img {
+  #sponsors #organizer > li > a > img {
     max-height: 220px;
     max-width: 220px;
     transition-property: all;
@@ -5285,17 +5285,17 @@ a, a:hover, a:focus {
     transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
     transition-delay: 0s;
     filter: grayscale(1); }
-  #sponsors .organizer > li > a > img:hover {
+  #sponsors #organizer > li > a > img:hover {
     transform: scale(1.15);
     filter: grayscale(0); }
-  #sponsors .organizer:before {
+  #sponsors #organizer:before {
     content: "organizer";
     text-transform: capitalize;
     font-weight: 300;
     font-size: 2rem;
     color: #999;
     display: block; }
-  #sponsors .media > li > a > img {
+  #sponsors #media > li > a > img {
     max-height: 150px;
     max-width: 150px;
     transition-property: all;
@@ -5303,10 +5303,10 @@ a, a:hover, a:focus {
     transition-timing-function: cubic-bezier(0.165, 0.85, 0.45, 1);
     transition-delay: 0s;
     filter: grayscale(1); }
-  #sponsors .media > li > a > img:hover {
+  #sponsors #media > li > a > img:hover {
     transform: scale(1.15);
     filter: grayscale(0); }
-  #sponsors .media:before {
+  #sponsors #media:before {
     content: "media";
     text-transform: capitalize;
     font-weight: 300;
